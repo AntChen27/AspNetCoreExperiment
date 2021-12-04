@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9D9013D4-45E7-470D-B24F-F76196C07718}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DFFF8E97-171F-45C4-9173-B407A3D57F83}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Antc.ApiGateway", "src\Antc.ApiGateway\Antc.ApiGateway.csproj", "{A2C3A9A8-3D54-4B86-AE36-15D09746DAFF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Antc.ApiServiceA", "src\Antc.ApiServiceA\Antc.ApiServiceA.csproj", "{0DF5E92A-7A41-4382-B0F3-8724E23540A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Antc.ApiServiceB", "src\Antc.ApiServiceB\Antc.ApiServiceB.csproj", "{ED102C50-065D-4E0D-94B3-855BA8DB6E9A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Antc.ApiConsul.Extensions", "src\Antc.ApiConsul.Extensions\Antc.ApiConsul.Extensions.csproj", "{982A6DCF-6C24-4406-85D2-3877F61AFDBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2C3A9A8-3D54-4B86-AE36-15D09746DAFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C3A9A8-3D54-4B86-AE36-15D09746DAFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C3A9A8-3D54-4B86-AE36-15D09746DAFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C3A9A8-3D54-4B86-AE36-15D09746DAFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DF5E92A-7A41-4382-B0F3-8724E23540A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF5E92A-7A41-4382-B0F3-8724E23540A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF5E92A-7A41-4382-B0F3-8724E23540A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF5E92A-7A41-4382-B0F3-8724E23540A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED102C50-065D-4E0D-94B3-855BA8DB6E9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED102C50-065D-4E0D-94B3-855BA8DB6E9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED102C50-065D-4E0D-94B3-855BA8DB6E9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED102C50-065D-4E0D-94B3-855BA8DB6E9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{982A6DCF-6C24-4406-85D2-3877F61AFDBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{982A6DCF-6C24-4406-85D2-3877F61AFDBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{982A6DCF-6C24-4406-85D2-3877F61AFDBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{982A6DCF-6C24-4406-85D2-3877F61AFDBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A2C3A9A8-3D54-4B86-AE36-15D09746DAFF} = {9D9013D4-45E7-470D-B24F-F76196C07718}
+		{0DF5E92A-7A41-4382-B0F3-8724E23540A1} = {9D9013D4-45E7-470D-B24F-F76196C07718}
+		{ED102C50-065D-4E0D-94B3-855BA8DB6E9A} = {9D9013D4-45E7-470D-B24F-F76196C07718}
+		{982A6DCF-6C24-4406-85D2-3877F61AFDBF} = {9D9013D4-45E7-470D-B24F-F76196C07718}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F8920B7-E74F-41CA-A468-DE6766115860}
+	EndGlobalSection
+EndGlobal
