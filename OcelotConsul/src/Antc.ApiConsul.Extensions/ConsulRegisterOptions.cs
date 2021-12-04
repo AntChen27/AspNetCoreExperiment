@@ -12,12 +12,6 @@ namespace Antc.ApiConsul.Extensions
         /// </summary>
         public string Address { get; set; }
 
-        public string Datacenter { get; set; } = "dc1";
-
         public string ServiceName { get; set; }
-        public string ServiceIp { get; set; }
-        public int ServicePort { get; set; }
-
-        public AgentServiceCheck[] Checks { get; set; }
     }
 }

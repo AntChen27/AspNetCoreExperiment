@@ -28,8 +28,7 @@ namespace Antc.ApiServiceB
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddHealthChecks();
-            services.ConfigureConsulAutoRegister(Configuration);
+            services.AddConsul(Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,7 +45,7 @@ namespace Antc.ApiServiceB
 
             app.UseAuthorization();
 
-            app.UseHealthChecks("/api/health");
+            app.UseConsul();
 
             app.UseEndpoints(endpoints =>
             {
