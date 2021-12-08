@@ -6,3 +6,6 @@ https://www.cnblogs.com/zhengyazhao/p/10749620.html
 
 微服务之:从零搭建ocelot网关和consul集群
 https://blog.csdn.net/sD7O95O/article/details/85829409
+
+Ocelot与Swagger的集成
+https://www.cnblogs.com/xhznl/p/13305767.html
